@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "SmartIr";
+    List<SensorDataFields> data = (List<SensorDataFields>)ViewData["SensorDataFields"];
+}
+
+<h1>Home Page</h1>
+<p></p>
+
+<table class="defaultTable">
+    <thead>Sensor Database</thead>
+    <tbody>
+        <tr>
+            <th>Unique Id</th>
+            <th>Temperature</th>
+            <th>Moisture</th>
+            <th>Luminosity</th>
+            <th>Date</th>
+        </tr>
+        @for(int i = 0; i < data.Count; i++)
+        {
+        <tr>
+            <td>
+                @Html.Raw(data[i].UniqueId)
+            </td>
+            <td>
+                @Html.Raw(data[i].Temperature)
+            </td>
+            <td>
+                @Html.Raw(data[i].Moisture)
+            </td>
+            <td>
+                @Html.Raw(data[i].Luminosity)
+            </td>
+            <td>
+                @Html.Raw(data[i].date.ToString("MM/dd/yyyy hh:mm:ss"))
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
