@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SensorDataWeb.Models;
 using Microsoft.AspNetCore.Http;
-using System.IO;
 using System.Data.SqlClient;
+using Newtonsoft.Json;
 
 namespace SensorDataWeb.Controllers
 {
@@ -67,5 +64,17 @@ namespace SensorDataWeb.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public ActionResult WeatherView()
+        {
+            return View();
+        }
+
+        //public JsonResult GetWeather()
+        //{
+        //    //WeatherAPI weather = new WeatherAPI();
+        //    //JsonSerializerSettings settings = new JsonSerializerSettings();
+        //    //return Json(weather.getWeatherForcast());
+        //}
     }
 }

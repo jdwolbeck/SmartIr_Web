@@ -5,6 +5,7 @@ C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\bin\Debug\netcoreapp2.1\Se
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\bin\Debug\netcoreapp2.1\SensorDataWeb.pdb
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\bin\Debug\netcoreapp2.1\SensorDataWeb.Views.dll
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\bin\Debug\netcoreapp2.1\SensorDataWeb.Views.pdb
+C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\SensorDataWeb.csprojAssemblyReference.cache
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\SensorDataWeb.csproj.CoreCompileInputs.cache
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\SensorDataWeb.RazorAssemblyInfo.cache
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\SensorDataWeb.RazorAssemblyInfo.cs
@@ -17,6 +18,7 @@ C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Ra
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\WeatherView.g.cshtml.cs
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs

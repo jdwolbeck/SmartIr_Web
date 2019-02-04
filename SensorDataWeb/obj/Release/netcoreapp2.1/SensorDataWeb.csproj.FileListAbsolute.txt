@@ -30,3 +30,4 @@ C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Release\netcoreapp2.1\
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Release\netcoreapp2.1\SensorDataWeb.dll
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Release\netcoreapp2.1\SensorDataWeb.pdb
 C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Release\netcoreapp2.1\SensorDataWeb.csproj.CopyComplete
+C:\Projects\VisualStudios\SensorDataWeb\SensorDataWeb\obj\Release\netcoreapp2.1\Razor\Views\Home\WeatherView.g.cshtml.cs

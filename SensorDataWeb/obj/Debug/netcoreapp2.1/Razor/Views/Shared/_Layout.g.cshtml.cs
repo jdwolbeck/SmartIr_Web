@@ -56,7 +56,7 @@ using SensorDataWeb.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 179, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e215873b79e14acdb6ca279d7a6454ad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99a549908cb5445fb540f7b6d53bc185", async() => {
                 BeginContext(31, 43, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <title>");
                 EndContext();
@@ -71,7 +71,7 @@ using SensorDataWeb.Models;
                 WriteLiteral("</title>\r\n    ");
                 EndContext();
                 BeginContext(106, 89, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c945b7f9d19c4f269b6356c44de6855a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "28111642df604b1b8f73daadf6e9597b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -112,7 +112,7 @@ AddHtmlAttributeValue("", 150, DateTime.Now.ToString("yyyyMMddhhmmssff"), 150, 4
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(206, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ceeb3ae5fb4340fe964c6ff85f40a3bd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5682386f92b4a43ac0d3cfe673a30fa", async() => {
                 BeginContext(212, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();

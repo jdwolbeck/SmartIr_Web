@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "WeatherJs";
+}
+
+<h2>WeatherJs</h2>
+<p id="name"></p>
+<p id="temp"></p>
+<p id="humidity"></p>
+<button>Get Weather</button>
+
+<script type="text/javascript" src="/Scripts/jquery-3.3.1.js"></script>
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $.get("http://api.openweathermap.org/data/2.5/forecast?q=Cleveland&APPID=d3240fe7b5dc8ced58f7991381b5d90d&units=imperial", function (response) {
+                console.log(response);
+            });
+        });
+    });
+</script>
