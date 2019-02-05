@@ -4,17 +4,22 @@
 }
 
 <h2>WeatherJs</h2>
+<p>City name:</p>
 <p id="name"></p>
+<p>Temperature:</p>
 <p id="temp"></p>
+<p>Humidity:</p>
 <p id="humidity"></p>
 <button>Get Weather</button>
 
-<script type="text/javascript" src="/Scripts/jquery-3.3.1.js"></script>
 <script>
     $(document).ready(function () {
         $("button").click(function () {
-            $.get("http://api.openweathermap.org/data/2.5/forecast?q=Cleveland&APPID=d3240fe7b5dc8ced58f7991381b5d90d&units=imperial", function (response) {
+            $.get("http://api.openweathermap.org/data/2.5/forecast?lat=45.5579&lon=-94.1632&APPID=d3240fe7b5dc8ced58f7991381b5d90d&units=imperial", function (response) {
                 console.log(response);
+                $("#name").text(response.city.name);
+                $("#temp").text(response.list[0].main.temp);
+                $("#humidity").text(response.list[0].main.humidity);
             });
         });
     });
